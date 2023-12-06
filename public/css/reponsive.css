@@ -86,7 +86,9 @@
     }
 
     .work-img {
-        max-width: 360px;
+        max-height: 500px;
+        max-width: 300px;
+        margin-left: 2.5%;
     }
 
     /* STYLES FORM-SECTION */
