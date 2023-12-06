@@ -1,0 +1,103 @@
+@import url(style.css);
+
+@media screen and (max-width: 1020px) {
+
+    /* GENERAL CLASSES */
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .icons {
+        text-align: center;
+    }
+
+    /* STYLES MENU-MOBILE */
+    .open-button svg {
+        display: block;
+    }
+
+    /* STYLES HEADER */
+    .menu-desktop, .button-contact {
+        display: none;
+    }
+
+    /* STYLES HERO-SECTION */
+    section.hero-section {
+        padding: 20px 8%;
+    }
+
+    section.hero-section .flex-container {
+        flex-direction: column-reverse;
+    }
+
+    section.hero-section .text-hero-section .title-content {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    section.hero-section .img-hero-section img {
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    /* STYLES SERVICES */
+    section.service {
+        padding: 80px 8%;
+    }
+
+    section.service .interface .service-title {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    /* STYLES ABOUT */
+    section.about {
+        padding: 40px 8%;
+    }
+
+    section.about .interface > .flex-container {
+        flex-direction: column;
+        
+    }
+
+    section.about .about-content .title-about {
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    section.about .img-about img {
+        height: 300px;
+        width: 300px;
+    }
+
+    /* STYLES WORK-SECTION */
+    section.work-section {
+        padding: 80px 8%;
+    }
+
+    section.work-section .interface > .work-title {
+        font-size: 32px;
+    }
+
+    section.work-section .flex-container {
+        align-items: center;   
+        gap: 60px;
+    }
+
+    .work-img {
+        max-width: 360px;
+    }
+
+    /* STYLES FORM-SECTION */
+    section.form-section .interface > .form-title {
+        font-size: 32px;
+    }
+
+    /* STYLES FOOTER */
+    footer .img-footer {
+        text-align: center;
+    }
+}
+
+
