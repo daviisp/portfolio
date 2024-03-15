@@ -111,6 +111,17 @@ header .interface .menu-desktop ul li a:hover {
   width: 70%;
 }
 
+.overlay-menu {
+  background-color: rgba(0, 0, 0, 0.8745098039);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 88888;
+  display: none;
+}
+
 .menu-mobile.menu-mobile-show ~ .overlay-menu {
   display: block;
 }
@@ -140,17 +151,6 @@ header .interface .menu-desktop ul li a:hover {
 
 .menu-mobile .close-button svg {
   color: #00ff08;
-}
-
-.overlay-menu {
-  background-color: rgba(0, 0, 0, 0.8745098039);
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 88888;
-  display: none;
 }
 
 /* STYLES HERO-SECTION */
@@ -378,7 +378,8 @@ section.form-section form {
   gap: 10px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   background-color: #242424;
   padding: 20px 15px;
